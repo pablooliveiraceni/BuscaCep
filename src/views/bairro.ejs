@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src='main.js'></script>
+</head>
+
+<body style="background-color: #303f83;">
+    <div class="container">
+        <div class="card mt-2 mb-2 bg-danger text-white">
+            <div class="card-body ">
+                <h3>Resultado da pesquisa pelo CEP</h3>
+                <hr />
+                <div><strong>bairro:</strong>
+                    <%= dado.bairro %>
+                </div>
+
+            </div>
+        </div>
+        <a href="/" class="btn bg-primary text-white">Procurar outro endereço</a>
+    </div>
+
+
+</body>
+
+</html>
